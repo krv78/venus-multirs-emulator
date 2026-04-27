@@ -21,7 +21,7 @@ The system is designed with a "Safety First" approach using a dedicated Watchdog
 
 ## 📂 Project Structure
 
-*   `dbus-multirs-emulator.py`: Main service script.
+*   `venus-multirs-mppsolar-emulator.py`: Main service script.
 *   `watchdog.py`: Background monitor and failsafe executor.
 *   `config.ini`: User configuration (ports, safe modes, intervals).
 *   `create_demo_db.py`: Database initialization tool for history logging.
