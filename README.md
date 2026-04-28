@@ -1,4 +1,4 @@
-# venus-multirs-mppsolar-emulator
+# venus-multirs-emulator
 
 Venus OS service for MPP Solar / Voltronic inverters. This project emulates a **Victron MultiRS** device, allowing seamless integration of non-Victron inverters into the Victron Energy ecosystem (Cerbo GX, Venus GX, etc.).
 
@@ -21,7 +21,7 @@ The system is designed with a "Safety First" approach using a dedicated Watchdog
 
 ## 📂 Project Structure
 
-*   `venus-multirs-mppsolar-emulator.py`: Main service script.
+*   `venus-multirs-emulator.py`: Main service script.
 *   `watchdog.py`: Background monitor and failsafe executor.
 *   `config.ini`: User configuration (ports, safe modes, intervals).
 *   `create_demo_db.py`: Database initialization tool for history logging.
@@ -40,7 +40,7 @@ The system is designed with a "Safety First" approach using a dedicated Watchdog
 3.  Clone this repository:
     ```bash
     git clone https://github.com
-    cd venus-multirs-mppsolar-emulator
+    cd venus-multirs-emulator
     ```
 4.  Run the installer:
     ```bash
